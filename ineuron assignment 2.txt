@@ -1,0 +1,115 @@
+
+Q 1) What are the two values of boolean data type? how do you write this?
+Ans:- Two values of boolean data type are true and false.
+       We can write it as True , False
+
+Q2) What are the three different type of boolean operator?
+Ans:- Three different type of boolean operator are OR, AND & NOT
+
+Q3) Make a list of each boolean operators truth table?
+Ans :-                    AND Truth table
+          
+           x                y         Output
+          1                 1           1
+          1                 0           0
+          0                 1           0
+          0                0            0
+
+                             OR Truth Table 
+          x              y            Output 
+         1               1                 1
+         1               0                 1
+         0               1                 1
+         0               0                0
+
+                         Not True table
+                 X                   Output
+                1                     0
+                0                     1
+
+Q) 4  What are the values of following expression?
+          (5>4) and (3==5)                                                        False
+          not 5>4                                                                          False
+          (5>4) or (3==5)                                                            True
+          not((5>4 or 3 ==5))                                                    False
+          (True and True) and (True== False)                     False               
+          (not False) or (not True)                                           True
+
+Q 5) What are the six comparision operator?
+Ans :-  1) Less than (<)
+              2) Greater than(>)
+               3) Less than or equal to(<=)
+               4) Greater than or equal to (>=)
+               5) Equal to(==)
+               6) Not equal to (=!)
+
+Q 6) How do you tell the diffence between equal to and assignment operator? Describe the condition and when will you use them?
+  Ans:- (=) Assignment operator is use to assign the value to the variable.
+             (==) Equal to operator is use to check the condition whether two operands are equal or not.
+         eg:- Suppose we have variable a and if we want to assign the value 30 in variable a then we will use assignment operator like a= 30
+                   Suppose we have two variable a and b and if we want to check wheter a and b are qual or not then we will use like a== b
+
+Q 7) Idetify the three blocks in code?
+   spam = 0
+if spam == 10:
+print('eggs)
+if spam>5:
+print('bacon')
+else:
+print('ham')
+print('spam')
+print('spam')
+  
+Ans:- The three blocks are everything inside the if statement and the lines print('bacon') and print('ham').
+print('eggs')
+if spam > 5:
+print('bacon')
+else:
+print('ham')
+print('spam')
+
+
+
+Q8) Write a code that prints Hello if 1 is store in spam, prints Howdy if 2 is store in spam, prints Greetings! if anything else is store in spam.
+Ans:-  spam= int(input("Enter a number))
+            if spam == 1:
+            print("Hello")
+            elif spam ==2:
+            print("Howdy)
+            else:
+            print("Greeting!)
+
+Q9 ).If your programme is stuck in an endless loop, what keys you’ll press?
+Ans:-  CTRL+C
+
+ Q10). How can you tell the difference between break and continue?
+Ans:- Break statement is use to terminate the entire loop and passes the control to the next statement.
+          Continue is use when we dont want to run the certain condition and we dont want to terminate the loop then we will use continue statement.
+
+
+ Q11). In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+Ans:- Range funtion return the sequence the number. In the for loop output of all the above three statement will be same. range(10) will print number 0 to 9. In the statement range(0,10) mention the start point and stop point but 10 will be excluded that means it will print 0 to 9. and in statement three range(0,10,1) mention the start point , stop point and step size. so it will print 0 to 9, 10 will be excluded.
+
+
+ Q12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent
+program that prints the numbers 1 to 10 using a while loop.
+
+Ans:- Using for loop
+ for i in range (1,11):
+           print(i)
+
+Using while loop
+i = 1
+while(i<=10):
+    print(i)
+    i += 1
+
+
+13. If you had a function named bacon() inside a module named spam, how would you call it after
+importing spam?
+  Ans :- spam.bacon()
+
+
+               
+
+
