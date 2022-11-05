@@ -1,0 +1,70 @@
+                                                                               Assignment 4
+
+1). What exactly is []?
+Ans:- This is empty list. The list contain no values.
+
+2). In a list of values stored in a variable called spam, how would you assign the value "hello" as the
+third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+Ans:- spam= [2,4,6,8,10]
+            spam.insert(3,"hello")
+
+
+Lets pretend the spam includes the list ['a','b','c','d'] for the next three queries.
+  3) what is value of spam =[int(int(3*2)/11))]
+
+Ans:- 'd'
+
+4)  what is value of spam[-1]
+ Ans:- 'd'
+
+5) what is value of spam[:2]
+Ans:- ['a','b']
+
+Lets pretend bacon has the list [3.14,'cat',11,'cat', True] for the next three questions.
+
+
+6). What is the value of bacon.index('cat')?
+Ans:- 1
+
+7). How does bacon.append(99) change the look of the list value in bacon?
+Ans:-[3.14,'cat',11,'cat', True, 99]
+
+8). How does bacon.remove'cat') change the look of the list in bacon?
+ Ans:- [3.14,11,'cat', True, 99]
+
+9). What are the list concatenation and list replication operators?
+Ans:- list concatenation= +
+         List replication= *
+
+10). What is difference between the list methods append() and insert()?
+Ans:- Append() method will add element at the last index by default whereas insert() method will ask us at which position we will want to add the element in this list. In insert we have to mention index at which we want to add the element.
+
+11). What are the two methods for removing items from a list?
+Ans:- Pop:- It the remove the element from the list index wise. like if we want to remove the element from list at 3 position then we will pop method like list.pop(3)
+  
+          Remove:- In this remove method we have the mention the name of element that which element we want to remove.
+            eg: list=("ankit", "kanika",123,1234)
+               if we want to remove 123 from this list then we will use list.remove(123)
+
+13). What is  the difference between tuples and lists?
+  Ans:- List is mutable data type whereas tuple is immutable datatype. thats mean we can change the value in list but in tuple we cant change the value once we have assign the value in tuple.
+
+14). How do you type a tuple value that only contains the integer 42?
+     tuple=(42 , ) 
+
+ 15)How do you get a list values tuple form? How do you get a tuple values list form?
+Ans:- we can use the tuple and list function repectively.
+
+16. Variables that &quot;contain&quot; list values are not necessarily lists themselves. Instead, what do they
+contain?
+Ans:- They contain reference to list value.
+
+17). How do you distinguish between copy.copy() and copy.deepcopy()?
+Ans:- copy.copy() will do the shallow copy of list . whereas copy.deepcopy() will do the deep copy of list.
+
+
+
+
+
+
+
